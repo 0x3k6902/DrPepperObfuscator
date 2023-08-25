@@ -1,10 +1,10 @@
 # DrPepperObfuscator
-Literally simple modified open source iron brew 2 dont use this for real. This is NOT secure
+This is parts i learnt to make when making a private fork of iron brew 2 before i advanced them all
 
-This is an open source for of iron brew 2 lua obfuscator. Using my public anti tamper module i created which will be attached in the misc repos.
+None of the shit in this repo was usedi n my private fork its just what i started with
 
-This is just made to already implement the anti tampering mod for u retards.
+Dont dm me if u cant add this to ur iron brew fork i will block you
 
-Omfg here cums bmcq
+This isnt even jsut for obfuscation parts of this could be to secure ur script and use another obf (i heard boronide didnt do to good)
 
---> Dont fork boronide
+--> Dont fork boronide herrt will literally be a gay cunt
