@@ -1,0 +1,17 @@
+--// Useless unless u hide it i guess just be smart not dumb!
+
+local LifeHackFr = {{
+['{Value1}'] = 1,
+['{Value2}'] = 2,
+['{Value3}'] = 3,
+['{Value4}'] = 4,
+}}
+--// Paste the above into your vm this will set the values in the table to your string ABOVE the vm section example here: 
+--// string Value1 = "100,23,25,64,332,11,1234,55,66,99,-0,93,45,67";
+
+
+--// We then need to go down to the bottom of Generator.cs where the vm replacement happens and match the numbers to the table numbers
+--// Example: vm.Replace("OP_ENUM", $"LifeHackFr['{Value1}']")
+
+--// Notes:
+--// Make sure ur vm is escaped before u make this change by adding $ before the @ :) and then whenever u use tables in ur vm use double table brackets instead of 1 set exampple: {} turns into {{ }}
