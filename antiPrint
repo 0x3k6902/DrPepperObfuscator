@@ -1,0 +1,13 @@
+--// Sample taken from my public anti tamper module project pat (project public anti tamper) 
+
+local function antiPrint(...)
+  local info = debug.getinfo(2)
+  if info and info.what == 'Lua' and info.func == print then
+    return
+  end
+  --// Return the local function here im removing parts so if skids cant set it up there wont be 999999 obfuscators out there
+end
+
+
+error = antiprint 
+--// Use above for reference and add more so on
