@@ -1,0 +1,13 @@
+local lineNumberToCheck = 4
+
+--// Local info is the line being checked
+local info = debug.getinfo(1, "Sl")
+
+--// Check if the current line number matches correct line
+if info.currentline == lineNumberToCheck then
+  --// True
+    print("The code is on line " .. lineNumberToCheck.. ' Omfg u smartass')
+else
+ --// False
+  print("The code is not on line " .. lineNumberToCheck.. ' Retard')
+end
