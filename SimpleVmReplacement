@@ -3,5 +3,5 @@ local GetFEnv      = getfenv or function() return _ENV end;
 local Char = GetFEnv()['\115\116\114\105\110\103']['\99\104\97\114'];
 local Byte = GetFEnv()[Char(115, 116, 114, 105, 110, 103)][Char(98, 121, 116, 101)];
 local Sub = GetFEnv()[Char(115, 116, 114, 105, 110, 103)][Char(115, 117, 98)];
---// U need to add the rest so its not *fully* skidded!
+--// U need to add the rest so its not *fully* skidded! (it is so simple to achieve the above its just asci chars!)
 
